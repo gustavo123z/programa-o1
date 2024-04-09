@@ -3,28 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="produtos.css">
-    
-    <title>produtos - barbearia alura</title>
-
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 <body>
-    <header>
-        <div class="caixa">
-        <h1><img src="logo.png" alt="logo da barbearia"></h1>
-        <nav>
-           <ul>
-               <li><a href="index.html">home</a></li>
-                <li><a href="#">produtos</a></li>
-                 <li><a href="#">contratos</a></li>
-           </ul>
-        </nav>
-    </div>
-<header>
+    <main>
+        <form>
+            <label for="nomeSobrenome">Nome e Sobrenome</label>
+            <input type="text" id="nomeSobrenome">
 
-    <footer>
-       <img src="logo-branco.png" alt="Logo da barbearia alura">
-       <p class="copyright"> &copy; Copyright Barbearia Alura-2024</p>
-</footer>
+            <label for="email">Email</label>
+            <input type="text" id="email">
+
+            <label for="telefone">Telefone</label>
+             <input type="text" id="telefone">
+               
+              <label for="mensagem">Mensagem</label>
+            <textarea name="" id="Mensagem" cols="30" rows="10"></textarea>
+            <input type="submit" value="Enviar Formulário">
+ 
+           <div>
+               <p>Como prefere nosso contato?</p>
+                <label for="radio-email">Email</label>
+                <input type="radio" name="contato" id="radio-email">
+
+                <label for="radio-telefone">telefone</label>
+                <input type="radio" name="contato" id="radio-telefone">
+
+                <label for="radio-whatsapp">whatsapp</label>
+                <input type="radio" name="contato" id="radio-whatsapp">
+            </div>
+ 
+            <label><input type="checkbox" name="" id="">Gostaria de receber nossas novidades por e-mail?</label>
+ 
+ 
+        </form>
+    </main>
 </body>
 </html>
