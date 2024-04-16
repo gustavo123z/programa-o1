@@ -113,9 +113,15 @@ nav a:hover{
      
      }
 
-     form input{
+     form input,form textarea{
        display: block;
        margin-bottom: 20px;
        padding:10px 25px ;
        width: 50%;
      }
+   
+     
+     
+     
+     
+     
