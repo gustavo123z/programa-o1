@@ -10,13 +10,13 @@
     <main>
         <form>
             <label for="nomeSobrenome">Nome e Sobrenome</label>
-            <input type="text" id="nomeSobrenome"> 
+            <input type="text" id="nomeSobrenome" class="input-padrao" required placeholder="nome@dominio.com"> 
 
             <label for="email">Email</label>
-            <input type="text" id="email" class="input-padrao">
+            <input type="text" id="email" class="input-padrao" required placeholder="nome@dominio.com">
 
             <label for="telefone">Telefone</label>
-             <input type="text" id="telefone" class="input-padrao">
+             <input type="text" id="telefone" class="input-padrao" required placeholder="(xx)xxxxx-xxxx">
                
               <label for="mensagem">Mensagem</label>
             <textarea name="" id="Mensagem" cols="30" rows="10" class="input-padrao"></textarea>
@@ -24,13 +24,13 @@
  
            <div>
                <p>Como prefere nosso contato?</p>
-                <label for="radio-email"><input type="radio" name="contato" id="radio-email">Email</label>
+                <label for="radio-email"><input type="radio" name="contato" id="radio-email" checked> Email</label>
                 
 
-                <label for="radio-telefone"><input type="radio" name="contato" id="radio-whatsapp">telefone</label>
+                <label for="radio-telefone"><input type="radio" name="contato" id="radio-whatsapp"checked> telefone</label>
                 
 
-                <label for="radio-whatsapp"><input type="radio" name="contato" id="radio-whatsapp">whatsapp</label>
+                <label for="radio-whatsapp"><input type="radio" name="contato" id="radio-whatsapp" checked> whatsapp</label>
                 
             </div>
                
@@ -46,8 +46,9 @@
 
 
 
-            <label class="checkbox"><input type="checkbox" name="" id="">Gostaria de receber nossas novidades por e-mail?</label>
+            <label class="checkbox"><input type="checkbox" name="" id="" checked> Gostaria de receber nossas novidades por e-mail?</label>
  
+            
  
         </form>
     </main>
